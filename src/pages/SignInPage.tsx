@@ -65,7 +65,7 @@ const SignInPage: React.FC = () => {
               type="email"
               placeholder="Enter your email"
               {...register('email')}
-              className={`w-full px-4 py-2 bg-slate-50 border rounded-lg focus:outline-none focus:ring-2 ${
+              className={`w-full px-4 py-2 bg-slate-50 text-slate-500 border rounded-lg focus:outline-none focus:ring-2 ${
                 errors.email ? 'border-red-500 focus:ring-red-500' : 'border-slate-200 focus:ring-blue-500'
               }`}
             />
@@ -87,7 +87,7 @@ const SignInPage: React.FC = () => {
               type="password"
               placeholder="Enter your password"
               {...register('password')}
-              className={`w-full px-4 py-2 bg-slate-50 border rounded-lg focus:outline-none focus:ring-2 ${
+              className={`w-full px-4 py-2 bg-slate-50 text-slate-500 border rounded-lg focus:outline-none focus:ring-2 ${
                 errors.password ? 'border-red-500 focus:ring-red-500' : 'border-slate-200 focus:ring-blue-500'
               }`}
             />
